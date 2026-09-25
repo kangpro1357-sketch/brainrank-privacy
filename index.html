@@ -27,7 +27,7 @@
 <body>
 
 <h1>Brainrank 개인정보처리방침</h1>
-<p class="sub">최종 수정일: 2026년 9월 13일</p>
+<p class="sub">최종 수정일: 2026년 9월 25일</p>
 
 <p>Brainrank(이하 "본 앱")는 이용자의 개인정보를 소중히 다룹니다.
 본 방침은 본 앱이 어떤 정보를 수집하고 어떻게 쓰는지를 설명합니다.</p>
@@ -35,7 +35,8 @@
 <div class="box">
   <strong>요약</strong><br>
   본 앱은 이름·이메일·전화번호·주소를 <strong>수집하지 않습니다</strong>. 회원가입도 없습니다.<br>
-  게임 기록을 기기 간에 유지하기 위해 <strong>익명 식별자와 게임 점수만</strong> 저장합니다.
+  게임 기록을 기기 간에 유지하기 위해 <strong>익명 식별자와 게임 점수</strong>를 저장하며,<br>
+  무료 제공을 위해 <strong>Google AdMob 광고</strong>를 표시합니다.
 </div>
 
 <h2>1. 수집하는 정보</h2>
@@ -59,8 +60,13 @@
   </tr>
   <tr>
     <td>앱 버전 · 저장 시각</td>
-    <td>예: <code>1.0</code>, 타임스탬프</td>
+    <td>예: <code>1.1</code>, 타임스탬프</td>
     <td>데이터 호환성 확인</td>
+  </tr>
+  <tr>
+    <td>광고 식별자</td>
+    <td>Android 광고 ID (기기에서 초기화·해제 가능)</td>
+    <td>광고 표시, 광고 빈도 조절, 부정 클릭 방지. Google AdMob 이 수집합니다.</td>
   </tr>
 </table>
 
@@ -77,9 +83,24 @@
 <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase 개인정보 보호 및 보안</a>
 문서를 참고하시기 바랍니다.</p>
 
-<h2>3. 정보의 제3자 제공</h2>
-<p>본 앱은 수집한 정보를 <strong>판매하거나 광고 목적으로 제3자에게 제공하지 않습니다.</strong>
-위 2항의 Google(Firebase)은 저장 기능을 제공하는 처리 위탁 업체입니다.</p>
+<h2>3. 정보의 제3자 제공 및 광고</h2>
+<p>본 앱은 수집한 정보를 <strong>판매하지 않습니다.</strong></p>
+<p>본 앱은 무료로 제공되며, 그 대가로 <strong>Google AdMob</strong> 을 통해 광고를 표시합니다.
+AdMob 은 광고를 보여주고 성과를 측정하기 위해 기기의 광고 ID, 대략적인 위치(IP 기반),
+앱 사용 정보를 수집할 수 있습니다. 이는 Google 의 정책에 따라 처리되며,
+자세한 내용은 <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google 광고 정책</a>
+을 참고하시기 바랍니다.</p>
+<p>게임 기록·국가 코드·익명 식별자는 <strong>광고 파트너에게 전달하지 않습니다.</strong>
+Firebase(2항)는 저장만 담당하는 처리 위탁 업체입니다.</p>
+
+<h3>맞춤 광고 끄기</h3>
+<p>휴대전화 <em>설정 → Google → 광고</em> 에서 광고 ID 를 초기화하거나 삭제할 수 있습니다.
+삭제하면 맞춤형이 아닌 일반 광고가 표시됩니다.</p>
+
+<h3>유럽경제지역(EEA)·영국·스위스 이용자</h3>
+<p>해당 지역 이용자에게는 앱 첫 실행 시 광고 데이터 사용에 대한 <strong>동의 창</strong>이 표시되며,
+동의하기 전에는 광고 SDK 가 데이터를 수집하지 않습니다.
+동의 여부는 이후 언제든 변경할 수 있습니다.</p>
 
 <h2>4. 보관 기간과 삭제 방법</h2>
 <p>기록은 이용자가 삭제를 요청하거나 앱이 종료될 때까지 보관됩니다.</p>
@@ -106,12 +127,13 @@
 <hr class="big">
 
 <h1>Brainrank Privacy Policy</h1>
-<p class="sub">Last updated: September 13, 2026</p>
+<p class="sub">Last updated: September 25, 2026</p>
 
 <div class="box">
   <strong>Summary</strong><br>
   This app does <strong>not collect</strong> your name, email, phone number, or address. There is no sign-up.<br>
-  It stores only an <strong>anonymous identifier and your game scores</strong> so your records follow you across devices.
+  It stores an <strong>anonymous identifier and your game scores</strong> so your records follow you across devices,<br>
+  and shows <strong>Google AdMob ads</strong> to keep the app free.
 </div>
 
 <h2>1. Information We Collect</h2>
@@ -135,8 +157,13 @@
   </tr>
   <tr>
     <td>App version &amp; timestamp</td>
-    <td>e.g. <code>1.0</code></td>
+    <td>e.g. <code>1.1</code></td>
     <td>Data compatibility checks</td>
+  </tr>
+  <tr>
+    <td>Advertising identifier</td>
+    <td>Android Advertising ID (you can reset or delete it on your device)</td>
+    <td>Showing ads, limiting how often you see them, and preventing ad fraud. Collected by Google AdMob.</td>
   </tr>
 </table>
 
@@ -151,9 +178,22 @@ operated by Google LLC, in the South Korea (asia-northeast3) region.
 All data is encrypted in transit via HTTPS.
 See <a href="https://firebase.google.com/support/privacy" target="_blank" rel="noopener">Firebase Privacy and Security</a>.</p>
 
-<h2>3. Sharing With Third Parties</h2>
-<p>We do <strong>not</strong> sell your data or share it with third parties for advertising.
-Google (Firebase) acts solely as our data processor for storage.</p>
+<h2>3. Sharing With Third Parties and Advertising</h2>
+<p>We do <strong>not</strong> sell your data.</p>
+<p>The app is free and is supported by ads served through <strong>Google AdMob</strong>.
+To show ads and measure their performance, AdMob may collect your device's advertising ID,
+approximate location (based on IP address), and app usage information. This is handled under
+Google's policies — see <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">How Google uses information from sites or apps that use its services</a>.</p>
+<p>Your game scores, country code and anonymous identifier are <strong>never passed to advertising partners</strong>.
+Firebase (Section 2) acts solely as our storage processor.</p>
+
+<h3>Turning Off Personalized Ads</h3>
+<p>On your phone, go to <em>Settings → Google → Ads</em> to reset or delete your advertising ID.
+Once deleted, you will see non-personalized ads instead.</p>
+
+<h3>Users in the EEA, UK and Switzerland</h3>
+<p>If you are in these regions, a <strong>consent form</strong> appears the first time you open the app.
+The ad SDK does not collect data until you respond, and you can change your choice at any time.</p>
 
 <h2>4. Retention and Deletion</h2>
 <p>Records are kept until you request deletion or the service is discontinued.</p>
